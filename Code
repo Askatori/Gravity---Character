@@ -1,0 +1,18 @@
+var grounded;
+if place_meeting(x, y + 1, obj_ground)
+   {
+   grounded = true;
+   }
+else
+{
+    grounded = false;    
+}
+
+if (grounded == true)
+{
+    gravity = 1;    
+}
+else
+{
+    gravity = 0;
+}
